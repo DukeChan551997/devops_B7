@@ -1,0 +1,20 @@
+import java.util.Scanner;
+class BodyMassIndex
+{
+public static void main(String[] args)
+{
+Scanner s=new Scanner(System.in);
+System.out.println("enter the weight in kg");
+System.out.println("enter the hight in meter");
+
+double w=s.nextDouble();
+double h=s.nextDouble();
+
+
+
+double Bmi=w / (h * h);
+System.out.println("body mass index"+Bmi);
+}
+}
+
+version 2.0
